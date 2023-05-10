@@ -1,0 +1,63 @@
+body{
+  background-color: #485BE6;
+}
+
+table
+{
+   border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid #ccc;
+}
+
+/* .pagination li {
+  display:inline-block;
+  padding:5px;
+} */
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 8vh;
+}
+
+h1, .list {
+font-family: 'Sorts Mill Goudy', serif;
+}
+
+h2{
+  color:white;
+}
+
+
+tr
+{
+   border-bottom: 1px solid #ccc;
+}
+
+td {
+  padding: 50px;
+}
+
+
+
+
+.sort, button {
+  padding: 8px 30px;
+  border: none;
+  display: inline-block;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  height: 30px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.portrait img {
+  width: 186px;
+  height: 154px; 
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
